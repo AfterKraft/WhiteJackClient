@@ -7,10 +7,28 @@
 	<name>WhiteJackClient</name>
 	<description>Client side implementation of WhiteJackAPI</description>
 	<build>
+		<defaultGoal>clean install</defaultGoal>
 		<plugins>
 			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
+					<archive>
+						<manifestEntries>
+							<Main-Class>com.whitejack.api</Main-Class>
+							<Implementation-Title>WhiteJackAPI</Implementation-Title>
+							<Implementation-Version>${describe}</Implementation-Version>
+							<Implementation-Vendor>WhiteJack Team</Implementation-Vendor>
+							<Specification-Title>WhiteJack</Specification-Title>
+							<Specification-Version>${api.version}</Specification-Version>
+							<Specification-Vendor>WhiteJack Team</Specification-Vendor>
+							<Sealed>true</Sealed>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+						</manifestEntries>
+					</archive>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
