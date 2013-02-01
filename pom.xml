@@ -16,7 +16,7 @@
 				<configuration>
 					<archive>
 						<manifestEntries>
-							<Main-Class>com.whitejack.api</Main-Class>
+							<Main-Class>com.whitejack.app.WhiteJack</Main-Class>
 							<Implementation-Title>WhiteJackAPI</Implementation-Title>
 							<Implementation-Version>${describe}</Implementation-Version>
 							<Implementation-Vendor>WhiteJack Team</Implementation-Vendor>
