@@ -4,7 +4,9 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.BasicConfigurator;
 
 import com.whitejack.api.GameMaker;
-import com.whitejack.blackjack.*;
+import com.whitejack.games.blackjack.BlackJackFactory;
+import com.whitejack.games.blackjack.BlackJackGame;
+import com.whitejack.games.blackjack.BlackJackGameTable;
 import com.whitejack.gui.GUIManager;
 
 public class WhiteJack extends WhiteClient {
