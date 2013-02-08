@@ -1,4 +1,4 @@
-package com.whitejack.app;
+package co.whitejack.app;
 
 import org.apache.log4j.Logger;
 

@@ -1,4 +1,4 @@
-package com.whitejack.gui;
+package co.whitejack.gui;
 
 import javax.swing.JFrame;
 

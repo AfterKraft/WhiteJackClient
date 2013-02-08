@@ -1,13 +1,14 @@
-package com.whitejack.app;
+package co.whitejack.app;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.BasicConfigurator;
 
-import com.whitejack.api.GameMaker;
-import com.whitejack.games.blackjack.BlackJackFactory;
-import com.whitejack.games.blackjack.BlackJackGame;
-import com.whitejack.games.blackjack.BlackJackGameTable;
-import com.whitejack.gui.GUIManager;
+import co.whitejack.api.GameMaker;
+import co.whitejack.games.blackjack.BlackJackFactory;
+import co.whitejack.games.blackjack.BlackJackGame;
+import co.whitejack.games.blackjack.BlackJackGameTable;
+import co.whitejack.gui.GUIManager;
+
 
 public class WhiteJack extends WhiteClient {
 

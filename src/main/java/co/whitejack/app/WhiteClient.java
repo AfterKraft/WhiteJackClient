@@ -1,4 +1,4 @@
-package com.whitejack.app;
+package co.whitejack.app;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -7,8 +7,9 @@ import java.net.SocketAddress;
 
 import org.apache.log4j.Logger;
 
-import com.whitejack.api.net.server.Server;
-import com.whitejack.net.server.WhiteServer;
+import co.whitejack.api.net.server.Server;
+import co.whitejack.net.server.WhiteServer;
+
 
 public abstract class WhiteClient {
 	
@@ -37,7 +38,7 @@ public abstract class WhiteClient {
 	
 	public void makeOfflineServer(Server server) {
 		WhiteServer offlineServer = new WhiteServer();
-//		offlineServer.setup();
+		offlineServer.setup();
 		
 	}
 

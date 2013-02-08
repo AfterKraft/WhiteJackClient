@@ -1,4 +1,4 @@
-package com.whitejack.gui;
+package co.whitejack.gui;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -17,7 +17,7 @@ public class WhiteJackBackground extends JPanel {
 	private ImageIcon icon;
 
 	public static URL background = WhiteJackBackground.class
-			.getResource("/com/whitejack/images/GameTable/WhiteJackTable0.jpg");
+			.getResource("/co/whitejack/images/GameTable/WhiteJackTable0.jpg");
 
 	public WhiteJackBackground() {
 		icon = new ImageIcon(background);

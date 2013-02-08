@@ -1,4 +1,4 @@
-package com.whitejack.audio;
+package co.whitejack.audio;
 
 public class AudioManager {
 

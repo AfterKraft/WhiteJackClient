@@ -1,11 +1,11 @@
-package com.whitejack.net.server;
+package co.whitejack.net.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 
 import org.apache.log4j.Logger;
 
-import com.whitejack.api.net.server.Server;
+import co.whitejack.api.net.server.Server;
 
 /**
  * WhiteServer to be used for offline 
